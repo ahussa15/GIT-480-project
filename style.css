@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Cherry Blossom.jpg');
+    background-size: auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+  
+  section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .menu-category {
+    margin: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .food-details {
+    width: 60%;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .food-image {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .rounded-image {
+    border-radius: 10px;
+    max-width: 100%;
+  }
+
+  .button-container {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .view-recipe-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-recipe-button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
